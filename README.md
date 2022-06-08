@@ -29,6 +29,7 @@ Use this URL to set up CI:
 ## Reset to before any CI
 
 ```
-git reset --hard 7241df4
+git checkout pre-ci
+git tag pre-ci
 git push -f
 ```
