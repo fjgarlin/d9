@@ -7,6 +7,7 @@
 ```
 git clone https://github.com/fjgarlin/d9.git d9
 cd d9
+mkdir web/sites/default/files
 ddev start
 ddev drush sql-cli < ./dump.sql
 ddev drush uli
