@@ -24,3 +24,11 @@ ddev drush uli
 
 Use this URL to set up CI:
 * `https://raw.githubusercontent.com/fjgarlin/d9/main/dump.sql`
+
+
+## Reset to before any CI
+
+```
+git reset --hard 7241df4
+git push -f
+```
