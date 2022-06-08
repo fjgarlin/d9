@@ -770,16 +770,6 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 
-if (PHP_SAPI === 'cli') {
-  ini_set('memory_limit', '512M');
-}
-
-$databases['default']['default'] = array (
-  'database' => 'sites/default/files/.ht.sqlite',
-  'prefix' => '',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\sqlite',
-  'driver' => 'sqlite',
-);
 $settings['config_sync_directory'] = '../sync';
 
 // Automatically generated include for settings managed by ddev.
