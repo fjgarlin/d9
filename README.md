@@ -2,7 +2,18 @@
 
 ## Run project
 
-`php -S localhost:8888 -t web`
+### First time
+
+```
+git clone https://github.com/fjgarlin/d9.git d9
+cd d9
+ddev start
+ddev drush sql-cli < ./dump.sql
+```
+
+### Run local server
+
+`ddev start`
 
 ## DB dump
 
