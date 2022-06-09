@@ -23,11 +23,4 @@ ddev drush uli
 ## DB dump
 
 Use this URL to set up CI:
-* `https://raw.githubusercontent.com/fjgarlin/d9/main/dump.sql`
-
-
-## Reset to before any CI
-
-```
-git checkout pre-ci
-```
+* `DB_DUMP`: `https://raw.githubusercontent.com/fjgarlin/d9/main/dump.sql`
