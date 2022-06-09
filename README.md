@@ -23,4 +23,8 @@ ddev drush uli
 ## DB dump
 
 Use this URL to set up CI:
-* `DB_DUMP`: `https://raw.githubusercontent.com/fjgarlin/d9/main/dump.sql`
+* `DB_DUMP_URL`: `https://raw.githubusercontent.com/fjgarlin/d9/main/dump.sql`
+
+## Slides
+
+[Drupal CI/CD](https://slides.com/fjgarlin/ci-cd-drupal-introduction)
