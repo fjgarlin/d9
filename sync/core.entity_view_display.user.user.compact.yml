@@ -1,4 +1,4 @@
-uuid: 37041779-678a-4bfc-86a3-f8c271b5d1e7
+uuid: 1cdf26c8-968d-4726-9338-3b675edea8f5
 langcode: en
 status: true
 dependencies:
@@ -10,7 +10,7 @@ dependencies:
     - image
     - user
 _core:
-  default_config_hash: mhGvkxcqWtUzB3ID4vZe-Y0dtI_4iCfxriKMCRj1Cuw
+  default_config_hash: kD2TjItfNDKFw2CFJQfuv4Ys6qg3uYa4hCJYN2jreec
 id: user.user.compact
 targetEntityType: user
 bundle: user
@@ -26,5 +26,4 @@ content:
     weight: 0
     region: content
 hidden:
-  langcode: true
   member_for: true

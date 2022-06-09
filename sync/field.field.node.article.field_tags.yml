@@ -1,4 +1,4 @@
-uuid: 1586b3f0-1869-4ab1-943d-93a0b0f5ad2b
+uuid: bc521d2c-08d5-4109-9172-2fd30b4556fd
 langcode: en
 status: true
 dependencies:
@@ -7,15 +7,15 @@ dependencies:
     - node.type.article
     - taxonomy.vocabulary.tags
 _core:
-  default_config_hash: a2uzf4WANQJf14v1uA_sIsCf5ydFuiYjc69jn5IzUGk
+  default_config_hash: QdUgf_beeoaPiyKorFv0q1fcJpWH_uZTqe_xoVJacrw
 id: node.article.field_tags
 field_name: field_tags
 entity_type: node
 bundle: article
 label: Tags
-description: 'Enter a comma-separated list. For example: Vegetarian, Chocolate brownies, Appetizers'
+description: 'Enter a comma-separated list. For example: Amsterdam, Mexico City, "Cleveland, Ohio"'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
