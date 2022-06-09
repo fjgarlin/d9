@@ -30,6 +30,4 @@ Use this URL to set up CI:
 
 ```
 git checkout pre-ci
-git tag pre-ci
-git push -f
 ```
