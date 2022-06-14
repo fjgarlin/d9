@@ -97,7 +97,7 @@ jobs:
         options: --health-cmd="mysqladmin ping" --health-interval=10s --health-timeout=5s --health-retries=3
     env:
       FOO: bar
-      # DB_DUMP_URL: "URL of DB dump"
+      DB_DUMP_URL: "https://raw.githubusercontent.com/fjgarlin/d9/main/dump.sql"
     steps:
       - uses: actions/checkout@v1
         with:
@@ -128,7 +128,7 @@ jobs:
         options: --health-cmd="mysqladmin ping" --health-interval=10s --health-timeout=5s --health-retries=3
     env:
       FOO: bar
-      # DB_DUMP_URL: "URL of DB dump"
+      DB_DUMP_URL: "https://raw.githubusercontent.com/fjgarlin/d9/main/dump.sql"
     steps:
       - uses: actions/checkout@v1
         with:
